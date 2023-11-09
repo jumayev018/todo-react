@@ -1,0 +1,18 @@
+#input {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid magenta;
+  border-radius: 10px;
+  padding: 18px;
+  outline: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.text {
+  color: magenta;
+  font-family: sans-serif;
+  text-align: center;
+}

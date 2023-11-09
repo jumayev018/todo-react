@@ -1,0 +1,31 @@
+.todo {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 12px 30px;
+    margin-top: 20px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 2px solid magenta;
+    transition: all .1s linear;
+}
+
+.todo:hover {
+    transform: scale(1.1);
+} 
+
+.btnC {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    width: auto;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(88, 88, 88);
+}
